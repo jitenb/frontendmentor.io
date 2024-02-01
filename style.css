@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    background-color: #f3e5d8;
+}
+
+#outer-box {
+    margin: 100px 200px 100px 200px;
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 100px;
+    
+}
+
+
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#header{
+  margin-top: 20px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+
+#preparation-time{
+    background-color: hsl(330, 100%, 98%);
+}
+
+.vertical-table {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .vertical-table div {
+    margin-bottom: 10px;
+  }
+  
+  .vertical-table span {
+    margin-right: 10px;
+  }
+
+  ol{
+    margin-left: 25px;
+  }
+
+  p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #outer-box > div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+  }
+
+
+  #preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+
+#preparation h4{
+  padding: 10px;
+  color: hsl(332, 51%, 32%);
+}
+
+#preparation ul>li{
+  padding: 5px;
+}
+
+#preparation span {
+  font-weight: bold;
+}
+#ingredients{
+  border-bottom: 1px solid rgb(177, 169, 169);
+  padding-bottom: 20px;
+}
+#ingredients>h2{
+  color: hsl(14, 45%, 36%);
+  margin-bottom:10px ;
+}
+
+#ingredients>ul>li{
+  padding-top: 8px;
+}
+
+#ingredients>ul>li::marker{
+  color: hsl(30, 10%, 34%);
+}
+
+#instructions{
+  border-bottom: 1px solid rgb(177, 169, 169);
+  padding-bottom: 20px;
+  
+}
+
+#instructions>h2{
+  color: hsl(14, 45%, 36%);
+}
+
+#instructions>ol{
+  margin-top: 10px;
+}
+
+#instructions ol li{
+  margin-bottom: 8px;
+}
+
+#instructions ol li::marker{
+  color: hsl(30, 10%, 34%);
+}
+
+#instructions span {
+  font-weight: bold;
+  color: hsl(14, 45%, 36%);
+}
+
+#nutrition h2{
+  color: hsl(14, 45%, 36%);
+}
+
+.elem{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: -150px;
+}
+
+.stats {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.vertical-table .elem.first,
+.vertical-table .elem.second,
+.vertical-table .elem.third {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding-bottom: 7px;
+  border-left: 0 solid hsl(30, 18%, 87%); 
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
